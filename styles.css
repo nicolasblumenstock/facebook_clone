@@ -1,0 +1,221 @@
+#facebook-wrapper {
+	font-family: sans-serif;
+}
+
+#header {
+	background-color: #3b5598;
+}
+
+#header-inner {
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
+
+}
+
+#fb-logo, #fb-search {
+	float: left;
+	margin-left: 10px;
+}
+
+#fb-logo {
+	background-image: url('https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png');
+	background-position: 0px -14px;
+	height: 29px;
+	width: 25px;
+	margin-top: 6px;
+}
+
+#fb-search input {
+	width: 350px;
+	height: 26px;
+	font-size: 13px;
+	outline: none;
+	/*margin-top: 2px;*/
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 2px;
+	padding: 2px;
+}
+
+/*#fb-search {
+	border-radius: 2px;
+	border: 1px solid black;
+}*/
+
+#right-header {
+	float: right;
+}
+
+.fb-icons {
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	height: 24px;
+	min-width: 24px;
+	line-height: 40px;
+	margin-left: 10px;
+}
+
+.fb-icons.friends, .fb-icons.messages, .fb-icons.notifications {
+	background-image: url('https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png');
+	margin-top: 5px;
+}
+
+.fb-icons.friends {
+	background-position: 28px -13px;
+}
+
+.fb-icons.messages {
+	background-position: 28px -262px;
+}
+
+.fb-icons.notifications {
+	background-position: 28px -62px;
+}
+
+#home-updates .new-feeds {
+	background: rgba(0, 0, 0, .25);
+	border-radius: 3px;
+	font-size: 10px;
+}
+
+#content {
+	overflow: hidden;
+	margin-top: 20px;
+	/*must have overflow hidden so that the floated children pass their height up*/
+}
+
+
+#left {
+	float: left;
+	width: 20%;
+	margin-left: 20px;
+}
+
+
+
+#middle {
+	width: 50%;
+	float: left;
+	border-left: 1px #cacaca solid;
+	/*border-right: 1px #cacaca solid;*/
+}
+
+/*#right {
+	width: 20%;
+	float: right;
+}*/
+
+.left-profile .left-profile-name {
+	vertical-align: top;
+	line-height: 50px;
+}
+
+.favorites-header {
+	margin-left: 10px;
+}
+
+.favorite-section {
+	margin-top: 20px;
+}
+
+.favorites-item{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.status-header .status-item {
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+}
+
+
+.status-wrapper input{
+	outline: none;
+	width: 99%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.status-header {
+	border-bottom: 1px solid #cacaca;
+	padding: 10px;
+}
+
+.top-post .top-post-content {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.top-post {
+	border-bottom: 1px solid #cacaca;
+}
+
+.top-post .top-post-image {
+	float: left;
+	margin-right: 10px;
+}
+
+.top-post .top-post-feelings {
+	font-size: 13px;
+	margin-top: 5px;
+	margin-left: 75px;
+}
+
+.top-post .top-post-post {
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-bottom: 45px;
+}
+
+.advert-section {
+	margin-top: 50px;
+}
+
+.pages-section {
+	margin-top:50px;
+}
+
+.groups-section {
+	margin-top: 50px;
+}
+
+.apps-section {
+	margin-top: 50px;
+}
+
+.friend-update {
+/*	border-bottom: 1px solid #cacaca;	
+*/}
+
+.friend-update .friend-update-content {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.friend-update .friend-update-image {
+	float: left;
+	margin-right: 10px;
+}
+
+.friend-update .friend-update-name {
+	margin-bottom: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+#right {
+	float: left;
+	margin-left: 20px;
+}
+
+#right-top {
+	border-bottom: 1px solid #cacaca
+
+}
